@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "Productivity Tracker",
+  "version": "1.0",
+  "description": "Tracks browsing habits and provides productivity reports",
+  "permissions": [
+    "tabs",
+    "storage"
+  ],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html"
+  }
+}
